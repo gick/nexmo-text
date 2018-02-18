@@ -12,9 +12,6 @@ module.exports = function(app, ) {
     textMessage.timestamp=req.timestamp
     textMessage.nonce=req.nonce
     textMessage.concat=req.concat
-    textMessage.concat-ref=req.concat-ref
-    textMessage.concat-total=req.concat-total
-    textMessage.concat-part=req.concat-part
     textMessage.data=req.data
     textMessage.udh=req.udh
     textMessage.save(function(err){

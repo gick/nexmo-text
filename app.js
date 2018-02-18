@@ -13,5 +13,5 @@ var db = mongoose.connection;
 
 //Bind connection to error event (to get notification of connection errors)
 db.on('error', console.error.bind(console, 'MongoDB connection error:'));
-require('./app/routes/routes.js')(app); // load our routes and pass in our app and fully configured passport
+require('./app/routes/route.js')(app); // load our routes and pass in our app and fully configured passport
 app.listen(8080)

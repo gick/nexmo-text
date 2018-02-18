@@ -5,10 +5,10 @@ var textMessage = new Schema({
 
     "msisdn": String,
     "to": String,
-    "messageId": String;
+    "messageId": String,
     "text": String,
     "type": String,
-    "keyword": <<<<<<string,
+    "keyword": String,
     "message-timestamp": String,
     "timestamp": String,
     "nonce": String,
